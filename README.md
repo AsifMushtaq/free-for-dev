@@ -9,6 +9,44 @@ You can help by sending Pull Requests to add more services. Once I have a good s
 
 If you're not inclined to make PRs you can tweet me at ```@ripienaar```
 
+Table of Contents
+=================
+
+   * [Source Code Repos](#source-code-repos)
+   * [Tools for teams &amp; Collaboration](#tools-for-teams--collaboration)
+   * [Code Quality](#code-quality)
+   * [Code Search and Browsing](#code-search-and-browsing)
+   * [CI / CD](#ci--cd)
+   * [Security and PKI](#security-and-pki)
+   * [Management Systems](#management-systems)
+   * [Log Management](#log-management)
+   * [Translation Management](#translation-management)
+   * [Analytics](#analytics)
+   * [Monitoring](#monitoring)
+   * [Crash / Exception handling](#crash--exception-handling)
+   * [Search](#search)
+   * [Email](#email)
+   * [CDN and Protection](#cdn-and-protection)
+   * [PaaS](#paas)
+   * [BaaS](#baas)
+   * [Web Hosting](#web-hosting)
+   * [IaaS](#iaas)
+   * [DBaaS](#dbaas)
+   * [STUN, WebRTC, Web Socket Servers and other Routers](#stun-webrtc-web-socket-servers-and-other-routers)
+   * [Issue tracking / Project management](#issue-tracking--project-management)
+   * [Storage and Media Processing](#storage-and-media-processing)
+   * [Data Visualization on Maps](#data-visualization-on-maps)
+   * [Package Build Systems](#package-build-systems)
+   * [IDE and Code Editing](#ide-and-code-editing)
+   * [Analytics, Events and  Statistics](#analytics-events-and--statistics)
+   * [International Mobile number verification API and SDK](#international-mobile-number-verification-api-and-sdk)
+   * [Payment / Billing Integration](#payment--billing-integration)
+   * [Other Packs](#other-packs)
+   * [Docker Related](#docker-related)
+   * [Alternate container hosting](#alternate-container-hosting)
+   * [Vagrant Related](#vagrant-related)
+   * [Vagrant box indexes](#vagrant-box-indexes)
+   * [Data mining](#data-mining)
 
 ## Source Code Repos
 
@@ -17,6 +55,8 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
   * https://github.com - Free for an unlimited number of public repositories
   * https://about.gitlab.com/ - Unlimited public and private git repos with unlimited collaborators
   * https://hub.jazz.net/ - Unlimited public repos, private repos free for up to 3 accounts.
+  * https://visualstudio.com - Free unlimited private repos (Git and TFS) for up to 5 users per team
+  * https://assembla.com - Free repo hosting in a free plan.
 
 ## Tools for teams & Collaboration
 
@@ -30,9 +70,10 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
   * https://kato.im - Team Chat & Collaboration, free for unlimited users with some feature limitations
   * http://seafile.com/ - Private or cloud storage, file sharing, sync, discussions. Private version is full. Cloud version has just 1 GB.
   * https://sameroom.io - Free for unlimited users with some feature limitations
-  * https://yammer.com/ - Private social network standalone or for M$ Office 365. Free, just a bit less admin tools and users management features.
+  * https://yammer.com/ - Private social network standalone or for MS Office 365. Free, just a bit less admin tools and users management features.
   * https://www.blockspring.com/ - Share scripts with anyone on your team: cross language and with spreadsheet users. Free for 5 million runs a month.
   * https://helpmonks.com/ - Shared inbox for teams - Free for open source projects and non-profit organizations.
+  * http://typetalk.in/ - Share and discuss ideas with your team through instant messaging on the web or on your mobile.
 
 ## Code Quality
 
@@ -66,6 +107,7 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
   * http://ftploy.com/ - 1 project w/ unlimited deployments
   * https://deployhq.com/ - 1 project w/ 10 daily deployments
   * https://hub.jazz.net/ - 60 minutes of free build time / month.
+  * https://styleci.io/ - Public GitHub repositories only.
 
 ## Security and PKI
 
@@ -84,6 +126,7 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
 ## Management Systems
 
   * https://opbeat.com/ - Release, deploy, monitor.  Free for 3 users
+  * https://bitnami.com/ - Deploy prepared apps on IaaS. Management of 1 AWS micro instance free
 
 ## Log Management
 
@@ -91,14 +134,26 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
   * https://logentries.com/ - Free up to 5GB/month with 7 day retention
   * https://www.loggly.com/ - Free for a single user, see the ```lite``` option
   * http://sematext.com/logsene - Free for 1M logs, unlimited retention
+  * https://www.sumologic.com - Free up to 500MB/day, 7 day retention
+
+## Translation Management
+
+ * https://lingohub.com - free up to 3 users, Open Source projects are always free
+ * https://www.getlocalization.com/ - free for public projects
+ * http://webtranslateit.com - free up to 500 strings
+ * http://transifex.com - free for Open Source projects
+ * http://www.oneskyapp.com/ - limited free edition for up to 5 users, free for Open Source projects
+ * https://crowdin.com - Unlimited projects, unlimited strings and collaborators for Open Source projects
 
 ## Analytics
 
   * http://www.splunk.com/en_us/products/splunk-cloud.html - Upload 5GB of data per day up to 28GB of total data stored
   * https://parse.com - Unlimited free analytics
+  * https://keen.io - Up to 50,000 events/month free
 
 ## Monitoring
 
+  * http://www.appneta.com - Free with 1 hour data retention
   * https://www.thousandeyes.com  - Network & user experience monitoring. 3 locations, plus 20 data feeds of major web services free.
   * https://www.datadoghq.com/ - Free for up to 5 nodes
   * http://www.stackdriver.com/ - Free for up to 10 nodes/services
@@ -106,6 +161,7 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
   * http://newrelic.com/ - Free with 24 hour data retention
   * https://nodequery.com/ - Free basic server monitor up to 10 servers
   * https://www.pingdom.com/free/ - 1 site free
+  * http://www.watchsumo.com/ - Free website uptime monitoring
   * https://www.opsgenie.com/ - Alert management with mobile push. 600 free alerts for 2 users a month
   * https://www.runscope.com/ - Monitor and log API usage.  Single user 10,000 request/month free
   * http://www.circonus.com/ - Free for 20 metrics
@@ -118,6 +174,8 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
   * https://sealion.com/ - Free up to 2 servers, 3 days data retention, graphs and raw command output history (`top`, `ps`, `ifconfig`, `netstat`, `iostat`, `free`, custom, etc.)
   * https://www.stathat.com - Get started with ten stats for free, no expiration.
   * https://www.skylight.io - Free for first 100k requests
+  * https://www.appdynamics.com - Free for 24h metrics, application performance management agents limited to one Java, one .NET, one PHP, and one Node.js
+  * https://deadmanssnitch.com - Monitoring for cron jobs. 1 free snitch (monitor) - more available if you refer others to sign up
 
 ## Crash / Exception handling
 
@@ -137,15 +195,18 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
 
   * http://www.sparkpost.com/ - First 10,000 emails per month are free
   * http://www.mailgun.com/ - First 10,000 emails per month are free
-  * http://mailchimp.com/ - Send 12,000 emails to 2,000 subscribers for free
+  * http://mailchimp.com/ - 2,000 subscribers and 12,000 emails per month are free
   * https://sendloop.com/ - 2,000 subscribers and 10,000 email delivery every month is free
   * http://sendgrid.com/ - 400 emails per day for free/25,000 free transactional emails per month for emails sent from a Google compute instance
-  * http://mandrill.com/ - First 12,000 emails are free
+  * http://mandrill.com/ - First 12,000 emails per month are free
   * https://www.phplist.com/ - Hosted version allow 300 mails per month for free
   * https://www.mailjet.com/ - 6000 mails per month for free
   * https://www.sendinblue.com/ - 9000 mails per month for free
   * https://mailtrap.io - fake SMTP server for development, free plan with 1 inbox, 50 messages, no team members, 2 emails/sec, no forward rules
   * https://mailstache.io - 4 Mailboxes @ 1GB each for up to 2 custom domains.
+  * https://postmarkapp.com - First 25,000 emails are free
+  * https://www.zoho.com/mail/ - Free Email management and collaboration for up to 10 users.
+  * http://moosend.com/ — Mailing list management service. Free account for 6 months for startups.
 
 ## CDN and Protection
 
@@ -160,47 +221,57 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
 
 ## PaaS
 
-  * http://aws.amazon.com/free/ - AWS Free Tier - Free for 12 months
   * https://cloud.google.com/appengine/ - Google App Engine gives 28 instance hours free, 1Gb NoSQL Database and more.
   * https://www.engineyard.com - Engine Yard provides 500 free hours
   * http://azure.microsoft.com/ - MS Azure gives $200 worth of free usage for a trial
   * http://hpcloud.com/ - $300 credit over 90 days.
   * https://appharbor.com/ - A .Net PaaS that provides 1 free worker
+  * https://shellycloud.com/ - Platform for hosting Ruby and Ruby on Rails apps. Shelly Cloud gives €20 free credit
   * https://www.heroku.com/ - Host your apps in the cloud, free for single process apps
-  * https://www.firebase.com/ - Build realtime apps, free plan has 50 Max Connections, 5 GB Data Transfer, 100 MB Data Storage.
-1 GB Hosting Storage and 100 GB Hosting Transfer.
+  * https://www.firebase.com/ - Build realtime apps, free plan has 50 Max Connections, 5 GB Data Transfer, 100 MB Data Storage. 1 GB Hosting Storage and 100 GB Hosting Transfer.
   * https://bluemix.net/ - IBM PaaS with a monthly free allowance
-  * https://www.openshift.com/ - RedHat OpenShift offers 3 free hosted apps
-  * https://bitnami.com/ - One free small app
+  * https://www.openshift.com/ - Red Hat PaaS, free tier provides three small gears (each with 512MB memory, 1GB storage). {[Browse one-click deployments](https://hub.openshift.com/)}.
   * https://scalingo.com - Free Tier, up to 3 apps, 1 container each, combined with data store addons free tier
   * https://algorithmia.com - Host algorithms for free - includes 10,000 credits (seconds of on-demand execution time) free
   * https://bigml.com/ - Hosted machine learning algorithms. Unlimited free tasks for development, limit of 16MB data per task
   * https://www.activestate.com/stackato/ - Enterprise-hardened Cloud Foundry PaaS from ActiveState, for private, public and hybrid cloud, free up to 20GB
   * http://www.outsystems.com/ - Enterprise web development PaaS for on-premise or cloud, free "personal environment" offering allows for unlimited code and up to 1GB database.
   * https://platform.telerik.com/ - Build and deploy mobile applications using Javascript. Free plan has 100 MB Data Storage, 1GB File storage, 5GB Bandwidth, 1 million push notifications for BaaS offering, 100 active devices for analytics.
+  * http://scn.sap.com/docs/DOC-56411 - The in-memory Platform-as-a-Service offering from SAP. Free developer accounts come with 1GB structured, 1GB unstructured, 1GB of Git data and allow you to run HTML5, Java and HANA XS apps.
+  * https://www.mendix.com/ - Rapid Application Development for Enterprises - Unlimited number of free sandbox environments supporting 10 users, 100MB of files and 100MB database storage each.
 
 ## BaaS
-  * https://www.parse.com - Mobile backends, free plan has 30 requests per second, with 20 GB of file and database storage, as well as push notifications for up to 1,000,000 unique recipients.
+
+  * http://apigee.com/docs/api-baas (product docs), http://apigee.com/docs/developer-vs-edge (registration) - Unlimited trial includes NoSQL data store with 25GB of storage, user and permission management, geolocation, 10,000,000 push notifications per month, remote configuration, beta and A/B split testing, APM, fully API driven.  Accessible and manageable via UI, SDK, and API.
   * http://appacitive.com/ - Mobile backend, free for the first 3 months with 100k API calls,Push notifications.
-  * https://www.contentful.com - Content as a Service. Content Management & Delivery APIs in the cloud. 3 users, 3 spaces (repositories) and 1,000,000 API requests per month for free.
-  * http://konacloud.io Web and Mobile Backend as a Service, with 5 GB free account.
+  * https://bip.io/ - A web-automation platform for easily connecting web services. Fully open GPLv3 to power the backend of your open-source project.  Commercial OEM License available.
   * https://www.blockspring.com/ - Cloud functions. Free for 5 million runs a month.
+  * https://www.contentful.com - Content as a Service. Content Management & Delivery APIs in the cloud. 3 users, 3 spaces (repositories) and 1,000,000 API requests per month for free.
+  * http://www.kinvey.com - Mobile backend, starter plan has unlimited requests per second, with 2 GB of data storage, as well as push notifications for up 5,000,000 unique recipients. Enterprise application support.
+  * http://konacloud.io Web and Mobile Backend as a Service, with 5 GB free account.
+  * https://layer.com/ - The full-stack building block for communications.
+  * https://www.parse.com - Mobile backends, free plan has 30 requests per second, with 20 GB of file and database storage, as well as push notifications for up to 1,000,000 unique recipients.
+  * http://quickblox.com/ - A communication backend for instant messaging, video and voice calling, and push notifications
 
 ## Web Hosting
 
   * https://www.simplybuilt.com - SimplyBuilt offers free website building and hosting for open source projects (http://www.simplybuilt.com/explore/free-websites-for-open-source-projects). Simple alternative to GitHub Pages.
   * http://www.devport.co - Turn GitHub projects, Apps, and websites into a personal developer portfolio.
-  * https://www.netlify.com - Builds, deploy and hosts static site or app, free for 100 MB data and 1 GB bandwith.
+  * https://www.netlify.com - Builds, deploy and hosts static site or app, free for 100 MB data and 1 GB bandwidth.
+  * https://divshot.com/ - Static Web Hosting for Developers, free basic apps, 1 GB bandwidth, 100 MB storage, custom domains, subdomain SSL.
 
 ## IaaS
 
+  * http://aws.amazon.com/free/ - AWS Free Tier - Free for 12 months
   * https://exoscale.ch/ - Free resources for Open Source projects
   * https://developer.rackspace.com/ - Rackspace Cloud gives $50/month for 12 months
   * https://cloud.google.com/compute/ - Google Compute Engine gives $300 over 60 days
   * https://cloud.google.com/container-engine/ - Google Container Engine for run Docker containers(Alpha). Pricing: same of Google Compute Engine.
   * https://nsone.net/ - Data Driven DNS, automatic traffic management, 1M free Queries
+  * https://developer.rackspace.com/signup/ - Get $50/month for 12 months to use toward cloud services.
 
 ## DBaaS
+
    * https://mongolab.com/ - MongoDB as a service (500mb free)
    * https://cloudant.com/ - Hosted database from IBM, free if usage is below $50/month
    * https://realm.io - Free to use even for commercial projects, under Apache 2.0 License
@@ -211,14 +282,19 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
    * https://parsehub.com/ — Extract data from dynamic sites, turn dynamic websites into APIs, 5 projects free.
    * https://import.io/ - Easily turn websites into APIs, completely free for life.
    * https://redsmin.com/ - Online real-time monitoring and administration service for Redis, 1 Redis instance free
+   * http://graphstory.com/ - GraphStory offers Neo4j (a Graph Database) as a service
+   * http://www.elephantsql.com/ - PostgreSQL as a service (20mb free)
 
 ## STUN, WebRTC, Web Socket Servers and other Routers
+
    * https://pusher.com. Hosted Web Sockets broker. Free for up to 20 simultaneous connections and 100k messages a day.
    * stun:stun.l.google.com:19302 - Google STUN
    * stun:global.stun.twilio.com:3478?transport=udp - Twilio STUN
    * https://www.segment.com. Hub to translate and route events to other third party services. 100k events a month free.
+   * https://ngrok.com/ - expose locally running servers over a tunnel to a public URL
 
 ## Issue tracking / Project management
+
    * https://www.pivotaltracker.com/community/public-projects - Pivotal Tracker. Free for public projects.
    * https://www.atlassian.com/opensource/overview - Free Jira etc for Open Source projects
    * https://kanbanflow.com/ - Board based project management. Free (premium version with more options).
@@ -235,16 +311,28 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
    * http://www.acunote.com/ - Free project management and SCRUM software for up to 5 team members.
    * http://gliffy.com/ - Online diagrams: flowchart, UML, wireframe... Also Plugins for Jira & Confluence. 5 diagrams and 2 MB free.
    * https://cacoo.com/ - Online diagrams in real time: flowchart, UML, network. Free max. 15 users/diagram, 25 sheets.
+   * https://www.draw.io/ - Online diagrams stored locally, in Google Drive, OneDrive or Dropbox. Free for all features and storage levels.
    * https://hub.jazz.net/ - IBM Bluemix's project management services. Free for public projects, free for up to 3 users for private projects.
    * http://leankit.com/ - Kanban board, that visualizes your workflow. Free up to 10 users.
+   * https://www.visualstudio.com/products/what-is-visual-studio-online-vs - Unlimited free private code repositories; Tracks bugs, work items, feedback and more.
+   * https://testlio.com - Issue tracking, test management and beta testing platform. Free for private use.
 
 ## Storage and Media Processing
 
    * https://www.aerofs.com/ - P2P file syncing, free for up to 30 users
    * http://cloudinary.com - Image upload, powerful manipulations, storage, and delivery for sites and apps, with libraries for Ruby, Python, Java, PHP, Objective-C and more. Perpetual free tier includes 7500 images/month, 2gb storage, 5gb bandwidth.
    * https://plot.ly - graph and share your data. Free tier includes unlimited public files and 10 private files.
-   * https://transloadit.com - Handles file uploads & encoding of video, audio, images, documents. Free for open source & other do-gooders. Commercial applications get the first GB free for testdriving.
-   * https://cartodb.com - create maps and geospatial APIs from your data and public data
+   * https://transloadit.com - Handles file uploads & encoding of video, audio, images, documents. Free for open source & other do-gooders. Commercial applications get the first GB free for test driving.
+   * https://podio.com/ - You can use Podio with a team of up to five people and try out the features of the Basic Plan - except User Management.
+   * https://shrinkray.io - free image optimization of Github repos
+   * https://www.cine.io - Scalable video broadcasting and p2p real-time video chat for iOS, Android, and web. Free tiers available for developers.
+
+## Data Visualization on Maps
+
+   * http://gogeo.io/ - Maps and geospatial services with an easy to use API and support for big data
+   * https://cartodb.com - Create maps and geospatial APIs from your data and public data.
+   * http://www.giscloud.com - Visualize, analyze and share geo data online.
+   * https://www.mapbox.com/ - Maps, geospatial services, and SDKs for displaying map data.
 
 ## Package Build Systems
 
@@ -262,8 +350,13 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
    * https://wakatime.com - quantified self metrics about your coding activity, using text editor plugins - Limited plan for free.
    * https://codenvy.com/ - IDE in a browser, collaborative, git integration, build and run your app in customizable Docker-based runners (free 512Mb RAM to distribute between you runners), pre-integrated deploy to Google Apps.
    * https://apiary.io/ - Collaborative design API with instant API mock and generated documentation (Free for unlimited API blueprints and unlimited user with one admin account and hosted documentation)
+   * https://www.mockable.io/ - Mockable is a simple configurable service to mock out RESTful API or SOAP web-services. This online service allows you to quickly define REST API or SOAP endpoints and have them return JSON or XML data.
    * https://www.jetbrains.com/products.html - Productivity tools, IDEs and deploy tools. Free license for students, teachers, open source projects, and user groups.
    * https://readme.io/ - Beautiful documentations made easy - free for Open Source
+   * https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx - Visual Studio. Not only for Windows and .NET
+   * https://codio.com/ - Codio is a cloud-based computer programming platform for universities, schools, and developer professionals.
+   * http://www.stackhive.com/ - Cloud based IDE in browser that supports HTML5/CSS3/jQuery/Bootstrap
+   * http://www.tadpoledb.com/ - IDE in browser Database tool. Support Amazon RDS, Apache Hive, Apache Tajo, CUBRID, MariaDB, MySQL, Oracle, SQLite, MSSQL, PostgreSQL and MongoDB databases.
 
 ## Analytics, Events and  Statistics
 
@@ -272,14 +365,15 @@ If you're not inclined to make PRs you can tweet me at ```@ripienaar```
  * https://heapanalytics.com/ - Automatically captures every user action in iOS or web apps. Free for up to 5,000 visits per month.
  * http://sematext.com/search-analytics - Free for up to 50K actions/month, 1 day data retention, unlimited dashboards, users, etc.
  * https://usabilityhub.com - Test designs and mockups on real people, track visitors. Free for one user, unlimited tests.
+ * https://gosquared.com - Track up to 1,000 data points for free.
 
 
 ## International Mobile number verification API and SDK
- * https://www.cognalys.com - Freemium mobile number verification through an innovative and relaible  method than using SMS gateway. Free accounts will have 70 Tries and 50 verifications per day .  {[Signup](https://www.cognalys.com/signup/1)}
+ * https://www.cognalys.com - Freemium mobile number verification through an innovative and reliable method than using SMS gateway. Free accounts will have 70 Tries and 50 verifications per day. {[Signup](https://www.cognalys.com/signup/1)}
 
 ## Payment / Billing Integration
 
- * https://www.braintreepayments.com - Credit Card, Paypal, Venmo, Bitcoin, Apple Pay (, ...) integration. Single and Recurrent Payments. First $ 50.000 are free of charge.
+ * https://www.braintreepayments.com - Credit Card, Paypal, Venmo, Bitcoin, Apple Pay (, ...) integration. Single and Recurrent Payments. First $50 are free of charge.
 
 ## Other Packs
 
